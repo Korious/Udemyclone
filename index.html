@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css" type="text/css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	<title>Udemy Clone</title>
+</head>
+
+<body>
+	<!--Header-->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"></a>
+			<img class="udemy-logo mx-auto"
+				src="https://about.udemy.com/wp-content/themes/wp-about-v4/assets/images/udemy-logo.svg" alt="Udemy"
+				width="100">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Categories
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">Development</a></li>
+							<li><a class="dropdown-item" href="#">Business</a></li>
+							<li>
+								<a class="dropdown-item" href="#">Finance & Accounting</a>
+							</li>
+							<li><a class="dropdown-item" href="#">IT & Software</a></li>
+							<li>
+								<a class="dropdown-item" href="#">Office Productivity</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="#">Personal Development</a>
+							</li>
+							<li><a class="dropdown-item" href="#">Design</a></li>
+							<li><a class="dropdown-item" href="#">Marketing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="nav-item col-70">
+					<form class="d-flex mx-auto" style="width: 800px" role="search">
+						<i class="fa-regular fa-magnifying-glass"></i>
+						<input class="form-control me-3 col-7" type="search" placeholder="Search for anything"
+							aria-label="Search" />
+					</form>
+				</div>
+				<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+					<button class="btn btn-primary me-md-2 btn btn-light" type="button">Log in</button>
+					<button class="btn btn-primary btn btn-dark" type="button">Sign up</button>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!--Carousel-->
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+			  <div class="carousel-item active">
+				<div class="img"><img class="d-block img-fluid" src="https://img-c.udemycdn.com/notices/web_banner/slide_2_image_udlite/e6cc1a30-2dec-4dc5-b0f2-c5b656909d5b.jpg" alt="First slide"></div>
+			  </div>
+			  <div class="carousel-item active-1">
+				<div class="img"><img class="d-block img-fluid" src="https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/bf1bd00b-e65c-4d18-8b3a-0176cfbb3601.jpg" alt="Second slide"></div>
+			  </div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		<!--First Section-->
+		<div class="mx-4 mt-5">
+			<div>
+				<h2 class="mb-3">A broad selection of courses</h2>
+				<h4>Choose from 213,000 online video courses with new additions published every month</h4>
+				<ul class="mt-2" id="f-cou">
+					<li><a href="#">Python</a></li>
+					<li><a href="#">Excel</a></li>
+					<li><a href="#">Web Development</a></li>
+					<li><a href="#">Java Script</a></li>
+					<li><a href="#">Data Science</a></li>
+					<li><a href="#">Aws Certification</a></li>
+					<li><a href="#">Drawing</a></li>
+				</ul>
+			</div>
+			<!--Second Section-->
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">Expand your career opportunities with Python</h5>
+					<p class="card-text">Take one of Udemy's range of Python courses and learn how to code using this
+						incredibly useful language. Its simple syntax and readability makes Python perfect for Flask,
+						Django, data science, and machine learning. You'll learn how to build everything from games to
+						sites to apps. Choose from a....</p>
+					<a href="#" class="btn btn-light">Explore Python</a>
+				</div>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card h-100">
+							<img src="./u.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Learn Python: The Complete Python Programming Course</h5>
+								<p class="card-text">Avinash Jain, The Codex</p>
+								<em>₦14,900</em>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<img src="./u2.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Learning Python for Data Analysis and Visualization Ver 1</h5>
+								<p class="card-text">Jose Potilla</p>
+								<em>₦29,900</em><br><br>
+								<button>Best seller</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<img src="./u3.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Python for Beginners - Learn Programming from scratch</h5>
+								<p class="card-text">Edwin Diaz, Coding Faculty Solutions</p><em>₦14,900</em>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Third Section-->
+	<div class="thrd-sec">
+		<h4><b>How learners like you are achieving their goals</b></h4>
+		<div class="containers">
+			<div class="container">
+				<img alt="" width="17.78" height="16"
+					src="https://s.udemycdn.com/browse_components/student-quote-unit/quote.svg">
+				<p class="py-3 px-3">This course helped me <b>freshen up on my product manager skills and land a job at Facebook!</b>
+					Thanks guys :)</p>
+			</div>
+			<div class="container">
+				<img alt="" width="17.78" height="16"
+					src="https://s.udemycdn.com/browse_components/student-quote-unit/quote.svg">
+				<p class="py-2 px-3">I am proud to say that after a few months of taking this course...<b>I passed my exam and am now an
+						AWS Certified Cloud Practitioner!</b> This content was exactly what the CCP exam covered.</p>
+			</div>
+		</div>
+	</div>
+	<!--Fourth section-->
+	<div class="frth-sec mx-4">
+			<div class="partners-banner">
+				<div class="frth-text">
+					<h2 class="frth-heading">Trusted by over 13,400 great teams</h2>
+					<p class="ud-text-md">Leading companies use the same courses to help employees keep their skills fresh.</p>
+				</div>
+				<ul class="container flex">
+					<li class="item flex-item"><img alt="Nasdaq logo" width="115" height="44"
+							src="https://s.udemycdn.com/partner-logos/v4/nasdaq-dark.svg"></li>
+					<li class="item flex-item"><img alt="Volkswagen logo" width="44" height="44"
+							src="https://s.udemycdn.com/partner-logos/v4/volkswagen-dark.svg"></li>
+					<li class="item flex-item"><img alt="Box logo" width="67" height="44"
+							src="https://s.udemycdn.com/partner-logos/v4/box-dark.svg"></li>
+					<li class="item flex-item"><img alt="NetApp logo" width="115" height="44"
+							src="https://s.udemycdn.com/partner-logos/v4/netapp-dark.svg"></li>
+					<li class="item flex-item"><img alt="Eventbrite logo" width="115" height="44"
+							src="https://s.udemycdn.com/partner-logos/v4/eventbrite-dark.svg"></li>
+					<li class="item flex-item"><img alt="Tata Consultancy Services logo" width="115"
+							height="44" src="https://s.udemycdn.com/partner-logos/v4/tcs-dark.svg"></li>
+				</ul>
+			</div>
+	</div>
+
+	<!--footer-->
+	<footer>
+		<div class="footer-content">
+				<ul>
+						<li><a href="#">Udemy Business</a></li>
+						<li><a href="#">Teach on Udemy</a></li>
+						<li><a href="#">Get the app</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Carrers</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Help and Support</a></lid>
+						<li><a href="#">Affiliate</a></li>
+						<li><a href="#">Investors</a></li>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">Private Policy</a></li>
+						<li><a href="#">Cookie Settings</a></li>
+						<li><a href="#">Site Map</a></li>
+						<li><a href="#">Accessibility statement</a></li>
+				</ul>
+			<div class="copyright-container ud-text-xs" data-purpose="footer-copyright">© 2023 Udemy, Inc.</div>
+				</div>
+	</footer>
+</body>
+</html>
